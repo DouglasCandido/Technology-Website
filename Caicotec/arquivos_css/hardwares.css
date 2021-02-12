@@ -1,0 +1,206 @@
+* { /*  Altera o cursor do mouse dentro de toda a página, por isso o asterisco */
+
+cursor: url(ponteiro.gif), auto;
+
+}
+
+body {
+
+    margin: 10px;
+    font: 100% arial;
+    text-align: center;
+    color: #333;
+    background-color: activecaption;
+	
+}
+
+div#cabeçalho {
+
+    margin: auto;
+    height: 50px;
+    width: 700px;
+    background-color: blue;
+    border: 2px;
+    border-style: solid;
+    border-color: orange;
+	text-shadow: 2px 2px black;
+	
+}
+
+div#cabeçalho h1 {
+
+    margin-top: 10px;
+	color: white;
+}
+
+h2 {
+
+    border-bottom: 2px solid orange;
+    border-left: 2px solid orange;
+    padding-left: 10px;
+    color: blue;
+	
+}
+
+div#conteudo {
+
+    margin: auto;
+    margin-top: 20px; /*Dá um distância do div do topo da página, para não fica junto com o div#cabeçalho*/
+    padding: 20px;
+    width: 700px;
+    text-align: left; /*alinhar o texto da esquerda para direita*/
+    background: white;
+    border: 1px; 
+    border-style: solid; /*estilo da borada do div onde está todo o conteúdo*/
+    border-color: orange;
+	
+}
+
+div#conteudo.interface {
+
+    margin: auto;
+    margin-top: 20px; /*Dá um distância do div do topo da página, para não fica junto com o div#cabeçalho*/
+    padding: 20px;
+    width: 700px;
+    height: 1025px;
+    text-align: left; /*alinhar o texto da esquerda para direita*/
+    background: white;
+    border: 1px; 
+    border-style: solid; /*estilo da borada do div onde está todo o conteúdo*/
+    border-color: orange;
+	
+}
+
+div#conteudo p {
+
+    text-align: justify;
+    text-indent: 20px;
+    color: black;
+	
+}
+
+div#opções {
+
+    margin: auto;
+    margin-top: 10px; /*Dá um distância do div do topo da página, para não fica junto com o div#cabeçalho*/
+    padding: 20px;
+    width: 700px;
+    height: 10px;
+    text-align: left; /*alinhar o texto da esquerda para direita*/
+    background: #F5F5F5;
+    border: 1px; 
+    border-style: solid; /*estilo da borada do div onde está todo o conteúdo*/
+    border-color: orange;
+	
+}
+
+div#dispositivos {
+
+    margin: auto;
+    margin-top: 20px; /*Dá um distância do div do topo da página, para não fica junto com o div#cabeçalho*/
+    padding: 20px;
+    width: 700px;
+    text-align: left; /*alinha o texto da esquerda para direita*/
+    background: #F5F5F5;
+    border: 1px; 
+    border-style: solid; /*estilo da borda do div onde está todo o conteúdo*/
+    border-color: orange;
+	
+}
+
+img.img_componente { /*configura o tamanho e a localização da imagem*/
+
+    width: 250px;
+    height: 200px;
+    margin-left: 200px;
+	
+}
+
+img.img_componente_Memória { /*configura o tamanho e a localização somente da imagem da memória*/
+
+    width: 270px;
+    height: 250px;
+    margin-left: 200px;
+	
+}
+
+img.img_componente_HD { /*configura o tamanho e a localização somente da imagem da hd*/
+
+    width: 250px;
+    height: 200px;
+    margin-left: 200px;
+	
+}
+
+table {
+
+    border: 1px;
+    border-style: solid;
+    border-color: orange;
+    text-align: center;
+    float: right; /*deixa a tabela flutuando para direita*/
+    margin: 5px;
+    color: black;
+	
+}
+
+table.centro { /*tabela da página de interfaces*/
+
+    position: absolute;
+    margin-left: 50px;
+    width: 600px;
+    border: 1px;
+    border-style: solid;
+    border-color: orange;
+    text-align: center;
+    color: black;
+	
+}
+
+th, tr, td, caption { /*configura as bordas das linhas, colunas e do título da tabela*/
+
+    border: 2px;
+    border-style: solid;
+    border-color: orange;
+	
+}
+
+tr.linha_cinza {
+
+    background-color: #CDC9C9;
+	
+}
+
+													/*ambos blocos de códigos é para alternar as cores das linhas da tabela*/
+ 
+tr.linha_branca {
+
+    background-color: #EEE9E9;
+	
+}
+
+div#opções ul {
+
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #C4C769;
+	
+}
+
+div#opções li {
+
+	display: inline;
+	padding: 0 50px 0 50px;
+	border-right: 1px; 
+    border-style: solid; 
+    border-color: #C4C769;
+	
+}
+
+div#opções li a {
+
+	text-decoration: none;
+	color: #272900;
+	
+}

@@ -1,0 +1,319 @@
+/* Estilos individuais */
+
+* {
+
+cursor: url(ponteiro.gif), auto;
+
+}
+
+body {
+
+	overflow-x: hidden; /* esconde a barra de rolagem horizontal */
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 85%;
+	font-family: arial;
+	color: black;
+	text-align: justify;
+	background-color: #E3E3E3;
+
+}
+
+h1.titulo {
+
+	color: white;
+	text-shadow: 2px, 2px, 2px, black;
+
+}
+
+
+
+h2 {
+
+	color: blue;
+	font-size: 200%;
+
+}
+
+h3 {
+	
+	color: #FF750A;
+	font-size: 110%;
+	
+}
+
+/* Estilos grupais */
+
+/* div#principal {
+
+	margin: 1em auto;
+	text-align: left;
+
+}
+
+*/
+
+div#cabecalho {
+
+	position: absolute;
+	height: 70px;
+	width: 99.5%;
+	position: relative;
+	background: url("../ícones_index/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom: 2px; 
+    border-style: solid;
+    border-color: orange;
+	box-shadow: 10px 10px 10px black;
+	
+}
+
+div#cabecalho h1 {
+
+	position: absolute;
+	margin: 40px 100px 10px 150px;
+	line-height: 0px;
+	text-shadow: 2px 2px black;
+
+}
+
+nav#menu {
+
+	margin: 0;
+	padding: 0;
+	width: 99.8%;
+	background-color: #4682B4;
+	border: 1px solid #B0C4DE;
+	float: left;
+	list-style: none;
+	
+}
+
+nav#menu #formPesquisar{
+	
+	position: absolute;
+	left: 80%;
+}
+
+nav#menu ul {
+
+	list-style: none;
+
+}
+
+nav#menu li {
+
+	position: relative;
+	float: left;
+	border-right: 3px solid #B0C4DE;
+	
+}
+
+nav#menu li:hover {
+
+	background-color: #ADD8E6;
+
+}
+
+nav#menu li a {
+
+	padding: 5px 10px;
+	display: block;
+	text-decoration: none;
+
+}
+
+nav#menu a {
+
+	color: orange;
+
+}
+
+nav#menu li ul {
+
+	position: absolute;
+	top: 45px;
+	left: 0px;
+	padding: 0px;
+	display: none;
+	list-style: none;
+	background-color: #747272;
+
+}
+
+nav#menu li:hover ul {
+
+	display: block;
+	
+}
+
+nav#menu li ul li {
+
+	border: 1px solid gray;
+	display: block;
+	width: 150px;
+	background-color: #4682B4
+
+}
+
+div#videos, div#parceiros {
+
+	width: 300px;
+	padding-left: 15px;
+
+}
+
+div#parceiros {
+
+	border-bottom: 3px solid #DBDBDB;
+
+}
+
+div#videos ul, div#parceiros ul {
+
+	margin: 1em 0;
+	padding: 0;
+
+}
+
+div#videos ul li, div#parceiros ul li {
+
+	list-style-type: none;
+	margin: 0 0 1em;
+	padding: 0;
+
+}
+
+div#videos a, div#parceiros a {
+
+	font-size: 18px;
+
+}
+
+div#conteudo_direita {
+
+    float: right;
+    width: 0px;
+	padding: 0px;
+    margin-right: 320px;
+	border-bottom: 2px solid #CDC9C9;
+    border-left: 3px solid #DBDBDB;
+	
+}
+
+div#logo img {
+
+	position: absolute;
+	top: 500px;
+	left: 1030px;
+    float: right;
+    margin-top: 36px;
+    margin-right: 60px;
+	width: 340px;
+	
+}
+
+div#conteudo {
+
+	float: left;
+	width: 1000px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: #E3E3E3;
+
+}
+
+div#conteudo h2{
+
+	text-align: center;
+
+}
+
+div#conteudo p {
+
+	line-height: 165%;
+    text-align: justify;
+    text-indent: 20px;
+	font-size: 20px;
+
+}
+
+div#pedido {
+
+	position: absolute;
+	width: 99.9%;
+	top: 725px;
+    margin-top: 50px;
+	padding-top: 0px;
+	padding-bottom: 50px;
+    color: yellow;
+	background-color: #1E90FF;
+	border-top: 2px solid orange;
+	border-left: 2px solid orange;
+	border-right: 2px solid orange;
+
+}
+
+div#pedido ul {
+
+	text-align: right;
+	margin: 1em 0;
+	padding: 0;
+
+}
+
+div#pedido ul li {
+
+	font-size: 250%;
+    list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 7px;
+
+}
+
+div#pe {
+
+	position: absolute;
+	width: 99.2%;
+	top: 100%;
+	top: 884px;
+	clear: both;
+	padding: 5px;
+	color: white;
+	text-align: right;
+	background-color: #0000CD;
+	border-bottom: 2px solid orange;
+	
+}
+
+a {
+
+    color: orange;
+    text-decoration: none;
+	
+}
+
+a:hover {
+
+    color: #000080;
+	
+}
+
+h3 {
+
+	font-size: 20px;
+    border-bottom: 1px solid orange;
+	
+}
+

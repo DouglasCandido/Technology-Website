@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>IP (Internet Protocol)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../arquivos_css/artigos.css"/>
+        <link rel="icon" type="image/png" href="../ícones_index/caicotec.png"/>
+    </head>
+    <body>
+        <div id="cabeçalho"><h1 class="titulo">Protocolo de Internet (IP)</h1></div>
+        
+        <div id="conteudo">
+            <img class="img_componente_IP" alt="imagem IP" src="../ícones_index/ip.png"/>
+            
+            <h2>O que é IP</h2>
+            
+            <p>
+                O IP, ou traduzindo, protocolo de internet é um protocolo de rede que é responsavél por identificar um
+                <i>host</i>, computador, em uma rede mundial ou local. Devido ter a função de identificação, em todo o mundo,
+                com milhares de máquinas ligadas a todo o tempo, é impossível que exista mais de um IP igual na rede mundial de
+                computadores, a <i>Internet</i>.
+            </p>
+            
+            <p>
+                Falamos em nosso site sobre as interfaces de um computador. Um PC possui uma interface específica que recebe
+                um IP, que é a interface de rede, ou como mais conhecida a placa de rede do computador. É através desta que 
+                o computador se torna possível receber um endereço IP e se conectar na rede mundial.
+            </p>
+            
+            <h2>Classes de IP</h2>
+            
+            <p>
+                Os endereços de IP não são números quaisquer. Os endereços de IP são formados por quatro octetos que têm o intervalo de
+                : 0.0.0.0 até 255.255.255.255, que em binário fica da seguinte forma: 0.0.0.0 até 11111111.11111111.11111111.11111111.
+                Além desta regra os endereços são dividos em Classe A, Classe B, Classe C. Também existem a Classe D e Classe E, mas ainda
+                não estão em pleno funcionamento, portanto iremos tomar mais ênfase nas três primeiras classes.
+            </p>
+            
+            <table class="centro">
+                <caption><b>Classes de Endereços</b></caption>
+                
+                <tr class="linha_cinza">
+                    <th>Classe</th>
+                    <th>Intervalo</th>
+                </tr>     
+                <tr class="linha_branca">
+                    <td>A</td>
+                    <td>0.0.0.0 - 127.255.255.255</td>
+                </tr> 
+                <tr class="linha_cinza">
+                    <td>B</td>
+                    <td>128.0.0.0 - 191.255.255.255</td>
+                </tr> 
+                <tr class="linha_branca">
+                    <td>C</td>
+                    <td>192.0.0.0 - 223.255.255.255</td>
+                </tr>
+            </table>
+            
+            <h2 style="margin-top: 200px;">Endereços válidos e possíveis</h2>
+            
+            <table>
+                <caption><b>Endereços possíveis e válidos</b></caption>
+                
+                <tr class="linha_cinza">
+                    <th>Classe</th>
+                    <th>Possíveis</th>
+                    <th>Válidos</th>
+                </tr>
+                <tr class="linha_branca">
+                    <td>A</td>
+                    <td>0.0.0.0 - 127.255.255.255</td>
+                    <td>1.0.0.1 - 126.255.255.254</td>
+                </tr>
+                <tr class="linha_cinza">
+                    <td>B</td>
+                    <td>128.0.0.0 - 191.255.255.255</td>
+                    <td>128.0.0.1 - 191.255.255.254</td>
+                </tr>
+                <tr class="linha_branca">
+                    <td>A</td>
+                    <td>192.0.0.0 - 223.255.255.255</td>
+                    <td>192.0.0.1 - 223.255.255.254</td>
+                </tr>
+            </table>
+            
+            <p>
+                A diferença de endereços possíveis e válidos de uma classe de endereço é a seguinte. Os possíveis é todo o intervalo
+                de endereços de uma classe, como a tabela mostrada anteriormente. Os endereços válidos são os IPs que é possível atribuir
+                à interface de rede para que a mesma conecte o computador na rede. Por exemplo se um endereço da classe fosse atribuído com 
+                o seguinte valor: 10.255.255.255, este não seria válido pois é um endereço de <i>Broadcast</i> ou 10.0.0.0, que seria um
+                o endereço de rede. Ambas situações não será tratada neste artigo. À seguir mostraremos uma tabela com os endereços
+                válidos e possíveis das classes A, B e C.              
+            </p>
+            
+        </div>
+    
+	<br/>
+        <br/>
+        
+        <a href="../index.html" target="_self"><img alt="voltar" src="../ícones_hardware/seta_voltar.png" style="width: 150px; height: 150px; margin: auto;"/></a>
+    
+    </body>
+</html>

@@ -1,0 +1,69 @@
+* { /*  Altera o cursor do mouse dentro de toda a página, por isso o asterisco */
+
+cursor: url(ponteiro.gif), auto;
+
+}
+
+body {
+
+    margin: 10px;
+    font: 100% arial;
+    text-align: center;
+    color: black;
+	background-color: #E3E3E3;
+	
+}
+
+body p {
+
+text-indent: 20px;
+
+}
+
+div#cabeçalho {
+
+    margin: auto;
+    height: 50px;
+    width: 700px;
+    background-color: blue;
+    border: 3px;
+    border-style: solid;
+    border-color: orange;
+	color: white;
+	text-shadow: 2px 2px black;
+	
+}
+
+div#cabeçalho h1 {
+
+    margin-top: 10px;
+	
+}
+
+div#vídeo {
+ 
+    margin: auto;
+    margin-top: 20px; /*Dá um distância do div do topo da página, para não fica junto com o div#cabeçalho*/
+    padding: 20px;
+    width: 700px;
+    text-align: left; /*alinhar o texto da esquerda para direita*/
+    background: white;
+    border: 1px; 
+    border-style: solid; /*estilo da borada do div onde está todo o conteúdo*/
+    border-color: orange;
+	
+}
+
+div#vídeo iframe {
+
+    margin-left: 70px;
+	
+}
+
+p {
+
+    text-align: justify;
+    text-indent: 20px;
+    color: black;
+	
+}
