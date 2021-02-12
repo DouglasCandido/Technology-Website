@@ -1,2 +1,2 @@
 # Technology-Website
-A simple website that provides information about technology. 
+A website that provides information about technology. 
